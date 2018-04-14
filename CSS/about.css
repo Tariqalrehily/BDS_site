@@ -1,0 +1,29 @@
+/* Start styling of Mobile first approch design */
+.about_container {
+  width: 90%;
+  margin: auto;
+}
+.aidan_pic {
+  width: 150px;
+  margin: 10px auto 20px;
+}
+.learn_img {
+  width: 95%;
+  margin: 15px auto;
+  padding: 10px;
+}
+.about_container > p {
+  text-align: justify;
+}
+
+/* End mobile styling */
+
+@media only screen and (min-width: 768px),
+ only screen and (min-width: 700px) and
+(orientation: landscape) {
+
+}
+
+@media only screen and (min-width: 1025px) {
+
+}

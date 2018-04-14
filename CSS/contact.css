@@ -1,0 +1,15 @@
+/* Start styling of Mobile first approch design */
+
+
+
+/* End mobile styling */
+
+@media only screen and (min-width: 768px),
+ only screen and (min-width: 700px) and
+(orientation: landscape) {
+
+}
+
+@media only screen and (min-width: 1025px) {
+
+}
