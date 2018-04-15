@@ -29,12 +29,15 @@ p {
     line-height: 20px;
     color: darkslategrey;
 }
+a {
+  text-decoration: none;
+}
 /***********************
 header style
  **********************/
 header {
-  background: #E1F9F9;
-  height: 15vh;
+  background: #288AE2;
+  height: 25vh;
 }
 .contanier {
   position: relative;
@@ -48,11 +51,12 @@ header {
 .nav {
   position: absolute;
   background-color: #464655;
-  top: 14%;
+  top: 23%;
   right: 0;
   height: 0;
   overflow: hidden;
-  width: 50%;
+  width: 100%;
+  background-color: #288AE2;
 }
 .nav ul {
   margin: 0;
@@ -84,6 +88,8 @@ header {
    color: inherit;
  }
  .logo {
+   position: absolute;
+   top: 3%;
    color: #000;
    font-size: 1.3em;
    margin: 50px 10px;
@@ -91,29 +97,28 @@ header {
    text-decoration: none;
  }
  .logo a:hover {
-   text-decoration: none;
+    color: #fff;
  }
- .phone {
- color: white;
- font-size: 10px;
- margin: 20px 10px;
- float: right;
-}
 .phoneNumber {
+  position: absolute;
+  top: 5%;
+  right: 0;
+  color: #fff;
+  font-size: 20px;
+  margin: 5px 10px;
+  padding: 5px;
   box-shadow: 1px 2px 5px #000;
   display: block;
   width: 200px;
   background-color: orangered;
   color: white;
-  font-size: 20px;
-  margin: auto;
-  line-height: 50px;
+  line-height: 30px;
   text-align: center;
   border-radius: 10px;
 }
 .phoneNumber:hover {
     text-decoration: none;
-    color: #515390;
+    color: #000;
   }
  /* End of header style*/
  /***********************
@@ -122,7 +127,7 @@ header {
  .menu-toggle {
    padding: 2em;
    position: absolute;
-   top: 8%;
+   top: 17%;
    right: 1%;
    cursor: pointer;
  }
@@ -204,13 +209,13 @@ Body Style
   }
   .bodyText {
   display: block;
-  width: 95%;
+  width: 83%;
   margin: 20px auto;
   text-align: justify;
   }
 .bodyTitle {
-  width: 25%;
-  margin:  auto;
+  font-size: 20px;
+  text-align: center;
 }
 /**********************************
  Start of Overlay text on image
@@ -222,8 +227,8 @@ Body Style
 .bodyImg {
 opacity: 1;
 display: block;
-width: 70%;
-margin: 10px  auto;
+width: 85%;
+margin: 30px auto;
 transition: .5s ease;
 backface-visibility: hidden;
 position: relative;
@@ -252,7 +257,6 @@ position: relative;
 }
 /* End of Overlay Style*/
 hr {
-  height: 20px;
  	width: 80%;
   margin: auto;
 }
@@ -278,7 +282,7 @@ small {
   display: block;
   width: 120px;
   height: 50;
-  background-color: orangered;
+  background-color: #288AE2;
   color: white;
   font-size: 20px;
   margin: auto;
@@ -287,7 +291,8 @@ small {
   border-radius: 3px;
 }
 .buttonLearnMore:hover {
-  background: #3498DB;
+  background: #fff;
+  color: #000;
 }
 /* End of main photo style*/
 /*******************
@@ -334,7 +339,7 @@ footer style
    font-family: sans-serif;
    font-size: 1.6;
    text-align: center;
-   background-color: #5B939E;
+   background-color: #288AE2;
    height: 30vh;
    width: 100%;
  }
@@ -365,6 +370,10 @@ Media Que.
  only screen and (min-width: 700px) and
 (orientation: landscape) {
 /* Page Header Styel*/
+hr {
+ 	width: 80%;
+  margin: auto;
+}
 header {
   height: 17vh;
 }
