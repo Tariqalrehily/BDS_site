@@ -89,7 +89,8 @@ header {
  }
  .logo {
    position: absolute;
-   top: 3%;
+   top: 1%;
+   left: 25%;
    color: #000;
    font-size: 1.3em;
    margin: 50px 10px;
@@ -101,8 +102,8 @@ header {
  }
 .phoneNumber {
   position: absolute;
-  top: 5%;
-  right: 0;
+  top: 13%;
+  left: 0;
   color: #fff;
   font-size: 20px;
   margin: 5px 10px;
@@ -340,7 +341,7 @@ footer style
    font-size: 1.6;
    text-align: center;
    background-color: #288AE2;
-   height: 30vh;
+   height: 32vh;
    width: 100%;
  }
  .servicesList  a{
@@ -362,6 +363,7 @@ footer style
  .social {
    margin: 3px 3px 20px 3px;
  }
+
 /*End of footer style*/
 /**************************
 Media Que.
@@ -379,6 +381,12 @@ header {
 }
 .logo {
   font-size: 1.7em;
+  top: .3%;
+  left: 1%;
+}
+.phoneNumber {
+  top: 1%;
+  left: 65%;
 }
 .menu-toggle {
    display: none;
@@ -387,12 +395,12 @@ header {
   position: relative;
 }
 .nav  {
-  height: 33px;
-  width: 50%;
+  height: 40px;
+  /* width: 50%; */
   position: absolute;
-  top: 12%;
+  top: 13%;
   right: 0;
-  background-color: #C2C7CB;
+  background-color: inherit;
 }
 .nav ul {
   list-style: none;
@@ -404,6 +412,8 @@ header {
 .nav li{
   display: inline-block;
   border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
   font-size: 12px ;
   text-shadow: 3px;
   padding: 3px;
@@ -412,6 +422,7 @@ header {
 }
 .nav li:last-child{
   border-right: none;
+  border-bottom: 1px solid #fff;
 }
 .nav a{
   padding: 5px;
@@ -499,7 +510,10 @@ text-align: justify;
    width: 90%;
    margin: auto;
  }
-
+#footer {
+  height: 23vh;
+  }
+}
  /* End of Overlay Style*/
 
  /*****************
@@ -507,11 +521,15 @@ text-align: justify;
  *****************/
 /********* media > 1025px **************/
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1024px) {
 #main-body{
     width: 60%;
     margin: auto;
     max-width: 1170px;
+  }
+  .phoneNumber {
+    top: 3%;
+    left: 70%;
   }
   .SliderName{
     margin-left: 17%;
@@ -526,4 +544,7 @@ text-align: justify;
     		height: 125px;
     		margin:15px 20px;
   }
+  #footer {
+    height: 25vh;
+    }
 }
