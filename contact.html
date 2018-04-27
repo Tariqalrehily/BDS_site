@@ -39,8 +39,59 @@
 
 <!-- Start Contact Us page code  -->
 
+<div class="contact_container">
+    <h1>Contact Us</h1>
+  <div class="justify_contact">
+    <form class="form part1" action="" method="post">
 
+      <div class="filed first_name">
+        <label for="">First Name</label>
+        <input type="text" required="required" placeholder="First Name"/>
+      </div>
 
+      <div class="filed last_name">
+        <label for="">Last Name</label>
+        <input type="text" required="required" placeholder="Last Name"/>
+      </div>
+
+      <div class=" filed email_address">
+        <label for="emailAdd">Email</label>
+        <input type="email" id="emailAdd" required="required"
+         placeholder="default@example.com" minlength="3"
+          maxlength="64"/>
+      </div>
+
+      <div class="filed phone_number">
+        <label for="telNo">Phone</label>
+        <input type="tel" id="telNo" required="required"
+         placeholder="085 121 3490" minlength="9" maxlength="14"/>
+      </div>
+
+      <div class="filed message">
+        <label for="message">Message: </label><br>
+       <textarea id="message"required
+                 placeholder="Your Message ..."></textarea>
+      </div>
+      <div class="filed submit">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+
+  <div class="part2">
+    <p>
+      <address>
+      Our address <br />
+      Example Example<br>
+      Box 564, Disneyland<br>
+      USA
+      </address>
+    </p>
+    <a href="tel:1234567">Phone 123-4567</a><br />
+    <a href = "mailto: abc@example.com">Email: default@example.com</a>
+  </div>
+  </div>
+
+</div>
 <!-- End contact us pafe code -->
 <div>
   <a href="contact.html" class="BookAndGet BookNow">Book Now</a><br />

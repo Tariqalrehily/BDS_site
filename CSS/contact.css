@@ -1,7 +1,53 @@
 /* Start styling of Mobile first approch design */
 
+.contact_container {
+  width: 90%;
+  margin: auto;
+}
+.contact_container > h1 {
+  color: #000;
+  font-size: 30px;
+  margin-top: 50px;
+}
+.form {
+  margin: 20px auto;
+  border: 1px solid grey;
+  background-color: lightgrey;
+  padding: 15px;
+}
+.filed {
+  width: 100%;
+  margin: 5px;
+  display: block;
+}
+.first_name,
+.last_name,
+.email_addres,
+.phone_number {
+  display: inline-block;
+}
+.email_address > input {
+  margin-left: 34px;
 
-
+}
+.phone_number > input {
+  margin-left: 28px;
+}
+.message > textarea {
+  width: 88%;
+  height: 15vh;
+  margin: auto;
+}
+.submit > input {
+  width: 30%;
+  margin: auto;
+  padding: 10px;
+}
+.submit > input:hover {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
 /* End mobile styling */
 
 @media only screen and (min-width: 768px),
@@ -10,6 +56,16 @@
 
 }
 
-@media only screen and (min-width: 1025px) {
-
+@media only screen and (min-width: 1024px) {
+  .justify_contact {
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .part1, .part2 {
+    width: 40%;
+  }
+  .part2 {
+    margin-top: 90px;
+  }
 }

@@ -1,15 +1,75 @@
 /* Start styling of Mobile first approch design */
-
-
-
+.services_container {
+  width: 90%;
+  margin: auto;
+}
+.our_services_ > h1 {
+  color: #000;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+.our_services_ > p{
+  text-align:justify;
+  margin-bottom: 40px;
+}
+.box{
+  margin-bottom: 10px;
+}
+.box_title_price {
+  border: 1px solid lightblue;
+  background-color: lightblue;
+  text-align: center;
+}
+.box_title_price h4:first-child {
+  color: #000;
+  margin-bottom: 50px;
+}
+.box_title_price h4:last-child{
+  margin-bottom: 2px !important;
+  border-top: 1px solid lightblue;
+  background-color: #fff !important;
+  padding: 7px;
+}
+.box > p {
+  border: 1px solid green ;
+  padding: 20px;
+  text-align: center;
+}
+.buy_box {
+  border: 1px solid #fff !important;
+  background-color: lightblue;
+  font-size: 20px;
+  font-weight: bold;
+}
+.services_container > h3 {
+  color: #000;
+  text-align: center;
+  margin-top: 50px;
+}
 /* End mobile styling */
 
 @media only screen and (min-width: 768px),
  only screen and (min-width: 700px) and
 (orientation: landscape) {
-
+  .services_container {
+    width: 80%;
+    margin: auto;
+  }
 }
 
-@media only screen and (min-width: 1025px) {
-
+@media only screen and (min-width: 1024px) {
+  .services_container {
+    width: 80%;
+    max-width: 1400px;
+    margin: auto;
+  }
+  .justify {
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .box{
+    width: 30%;
+  }
 }
